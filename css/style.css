@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw; }
+  ul li {
+    background-color: #aa35a0;
+    list-style: none;
+    padding: .5vw;
+    border-radius: 20%; }
+
 header {
   background-color: #db2ecd;
   height: 20vw;

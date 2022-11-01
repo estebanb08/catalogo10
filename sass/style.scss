@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    
+    li{
+        background-color:  rgb(170, 53, 160);
+        list-style: none;
+        padding: .5vw;
+        border-radius: 20%;
+    }
+}
 header{
 background-color: rgb(219, 46, 205);
 height: 20vw;
