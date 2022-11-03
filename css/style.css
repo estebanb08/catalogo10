@@ -18,7 +18,8 @@ header {
   height: 20vw;
   margin-left: auto;
   margin-right: auto;
-  padding: 2vw; }
+  padding: 2vw;
+  margin-bottom: 13vw; }
   header .logo {
     display: block;
     width: 20vw;
@@ -26,18 +27,29 @@ header {
     margin-left: auto;
     margin-right: auto; }
 
-.catalogo {
+main {
   margin-top: 6vw;
+  margin-bottom: 6vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6vw; }
-  .catalogo .card {
+  main h2 {
+    text-align: center; }
+  main section {
+    margin-bottom: 9vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6vw; }
+  main .card {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0%; }
-  .catalogo .card {
+    margin-bottom: 0%;
+    width: auto; }
+  main .card {
     transition: all .5s; }
-  .catalogo .card:hover {
+  main .card:hover {
     transform: scale(1.1);
     transition: all .5s; }
