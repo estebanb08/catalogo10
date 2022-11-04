@@ -7,7 +7,7 @@
 ul{
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: 1vw;
     
     li{
         background-color:  rgb(170, 53, 160);
@@ -16,19 +16,43 @@ ul{
         border-radius: 20%;
     }
 }
+
+h2{
+    background-color:rgba(219, 46, 205, 0.507);
+    height: 5vw;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vw;
+  border-radius: 1em;
+  font-size: 1vw;
+}
+
 header{
 background-color: rgb(219, 46, 205);
 height: 20vw;
 margin-left: auto;
 margin-right: auto;
 padding: 2vw;
-margin-bottom: 13vw;
+margin-bottom: 35vw;
     .logo{  
     display: block;
     width: 20vw ;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vw;
+    }
+    nav{
+        display: flex;
+            flex-direction: row;
+        .nav-item{
+
+            .nav-link{
+                
+                text-decoration-color: white;
+            }
+        }
     }
 }
 
@@ -46,8 +70,9 @@ main{
     }
 
     section{
+
         margin-bottom: 9vw;
-        margin-top: 2vw;
+        margin-top: 5vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
